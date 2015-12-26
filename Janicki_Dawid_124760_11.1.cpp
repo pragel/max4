@@ -1,12 +1,10 @@
-
 #include <iostream>
-
 using namespace std;
-
-int a, b, c, d, m;
 
 int main()
 {
+	int a, b, c, d, m;
+	
 	cout << "Podaj 4 liczby rozdzielone spacja:";
 	cin >> a >> b >> c >> d;
 	
