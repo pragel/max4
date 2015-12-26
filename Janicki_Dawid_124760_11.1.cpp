@@ -3,16 +3,18 @@ using namespace std;
 
 int main()
 {
-	int a, b, c, d, m;
+	int a, m;
 	
 	cout << "Podaj 4 liczby rozdzielone spacja:";
-	cin >> a >> b >> c >> d;
 	
+	cin >> a;
 	m = a;
-	if (b > m) m = b;
-	if (c > m) m = c;
-	if (d > m) m = d;
-	  
+	
+	for (int i = 0; i < 3; i++) {
+		cin >> a;
+		if (a > m) m = a;
+	}
+ 
 	cout << "Najwieksza liczba to " << m;
 	return 0;
 }
