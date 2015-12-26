@@ -7,7 +7,7 @@ int a, b, c, d, m;
 
 int main()
 {
-	cout << "Podja 4 liczby rozdzielone spacja:";
+	cout << "Podaj 4 liczby rozdzielone spacja:";
 	cin >> a >> b >> c >> d;
 	
 	m = a;
